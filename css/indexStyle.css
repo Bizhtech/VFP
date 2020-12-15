@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Arial_Rounded_MT_Bold;
+  src: url(Fonts/ARIAL_ROUNDED_BOLD.TTF);
+}
+
+a.nav-link{
+  font-family: Arial_Rounded_MT_Bold;
+  color:white !important;
+  /* color:#EFCA48; */
+  font-size: 24px;
+}
+
+.active a.nav-link{
+  color:#EFCA48 !important;
+}
+
+@media (min-width:768px) {
+  #mob_banner{
+    display:none;
+  }
+}
+
+@media (max-width:768px) {
+  #laptop_banner{
+    display: none;
+  }
+  #navlogo{
+    display: none;
+  }
+}
+
+
+.Building{
+  font-family: Arial_Rounded_MT_Bold;
+  font-size: 36px;
+  color:black;
+}
+.Pakistan{
+  color:#1A933C;
+}
+.Read_More{
+  font-family: Arial_Rounded_MT_Bold;
+  font-size: 18px;
+  color:#200660;
+}
