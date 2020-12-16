@@ -7,7 +7,9 @@
   font-family: Arial_Rounded_MT_Bold;
   src: url(Fonts/ARIAL_ROUNDED_BOLD.TTF);
 }
-
+.navbar{
+  position: absolute;
+}
 a.nav-link{
   font-family: Arial_Rounded_MT_Bold;
   color:white !important;
@@ -18,17 +20,30 @@ a.nav-link{
 .active a.nav-link{
   color:#EFCA48 !important;
 }
-
-@media (min-width:768px) {
-  #mob_banner{
-    display:none;
-  }
+.nav-link:hover{
+  color:#EFCA48 !important;
 }
+@media (min-width:768px) {
 
+}
+#mobNavBarToggle{
+  cursor: pointer;
+}
+#mob_banner{
+  /* display:none; */
+  display: none;
+  /* height: 0; */
+  transition: top 0.5s ease-in;
+  width: 100%;
+  position: relative;
+  z-index: 10000;
+  top: -1000px;
+}
+.mobLinks:hover path,.mobLinks.active path{
+  fill:#EFCA48 !important;
+}
 @media (max-width:768px) {
-  #laptop_banner{
-    display: none;
-  }
+
   #navlogo{
     display: none;
   }
@@ -52,4 +67,11 @@ a.nav-link{
   font-family: Arial_Rounded_MT_Bold;
   color:#200660;
   font-size: 36px;
+}
+
+a.Read_More{
+  text-decoration: none;
+}
+a.Read_More:hover,a.Read_More:active{
+  text-decoration: none;
 }
