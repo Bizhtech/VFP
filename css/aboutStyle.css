@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Arial_Rounded_MT_Bold;
+  src: url(Fonts/ARIAL_ROUNDED_BOLD.TTF);
+}
+
+@font-face {
+  font-family: Arial_Rounded_MT;
+  src: url(Fonts/ARIAL_ROUNDED_MT.TTF);
+}
+
+a.nav-link{
+  font-family: Arial_Rounded_MT_Bold;
+  color:white !important;
+  /* color:#EFCA48; */
+  /* font-size: 18px; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
+.active a.nav-link{
+  color:#EFCA48 !important;
+}
+.nav-link:hover{
+  color:#EFCA48 !important;
+}
+
+@media (max-width:768px) {
+
+  #navlogo{
+    display: none;
+  }
+}
+
+.aboutbody{
+  padding-top: 100px;
+}
+.AboutHeading{
+  font-family: Arial_Rounded_MT_Bold;
+  font-size: 48px;
+  color:#200660;
+}
+.AboutContent{
+  font-family: Arial_Rounded_MT;
+  font-size: 18px;
+  color:#000000;
+}
+
+.howvfp{
+  background: #F7F3F3;
+  border-radius: 45px;
+}
+.howvfp_heading{
+  font-family: Arial_Rounded_MT_Bold;
+  font-size: 48px;
+  color: #200660;
+}
+.howvfp_content1{
+  font-family: Arial_Rounded_MT;
+  font-size: 18px;
+  text-align: center;
+  padding: 0px 100px 0px 100px;
+}
+.block1{
+  font-family: Arial_Rounded_MT_Bold;
+  font-size: 24px;
+  color:#200660;
+}
+.block2{
+  font-family: Arial_Rounded_MT;
+  font-size: 12px;
+  text-align: center;
+  line-height: 14px;
+  padding: 0px 50px 0px 50px;
+
+}
+
+.follow-vfp{
+  font-family: Arial_Rounded_MT_Bold;
+  color:#200660;
+  font-size: 36px;
+}
