@@ -31,10 +31,9 @@ a.nav-link{
 }
 
 @media (max-width:768px) {
-
-  #navlogo{
+  /* #navlogo{
     display: none;
-  }
+  } */
 }
 
 .aboutbody{
@@ -77,11 +76,119 @@ a.nav-link{
   text-align: center;
   line-height: 14px;
   padding: 0px 50px 0px 50px;
+}
 
+.what1{
+  font-family: Arial_Rounded_MT_Bold;
+  font-size: 24px;
+  color:#E71D36;
+  text-align: center;
+  line-height: 27.77px;
+}
+.what2{
+  font-family: Arial_Rounded_MT;
+  font-size: 12px;
+  text-align: center;
+  line-height: 22px;
+  padding: 0px 70px 0px 70px;
+}
+.become_button {
+  font-family: Arial_Rounded_MT_Bold;
+  background: #E71D36;
+  border-radius: 18px;
+  border:none;
+  color: white;
+  padding: 13px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+.dateapply{
+  font-family: Arial_Rounded_MT_Bold;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .follow-vfp{
   font-family: Arial_Rounded_MT_Bold;
   color:#200660;
   font-size: 36px;
+}
+
+@media (max-width:768px) {
+#about_banner{
+  display: none;
+}
+.aboutbody{
+  padding-top: 10px;
+}
+.aboutstair img{
+  width:65% !important;
+  text-align: center;
+}
+.AboutHeading{
+font-size: 30px;
+padding-top: 20px;
+}
+.AboutContent{
+  text-align: center !important;
+  font-size: 17px;
+  line-height: 28px;
+}
+.howvfp{
+  background: #ffffff;
+  border-radius: 0px;
+}
+.howvfp_heading{
+  font-size: 30px;
+}
+.howvfp_content1{
+  font-size: 16px;
+  padding: 0px 0px 0px 0px;
+  line-height: 28px;
+}
+.howvfp1 img{
+  width:20% !important;
+}
+.block1{
+  font-size: 20px;
+}
+.block2{
+  font-family: Arial_Rounded_MT;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 2px 0px 30px 0px;
+}
+
+
+.howvfp2 img{
+  width:20% !important;
+}
+.howvfp3 img{
+  width:20% !important;
+}
+.howvfp4 img{
+  width:20% !important;
+}
+.howvfp5 img{
+  width:20% !important;
+}
+.what1{
+  font-size: 20px;
+}
+.what2{
+  font-size: 16px;
+  line-height: 28px;
+  padding: 2px 60px 30px 60px;
+}
+
+}
+
+@media (min-width:768px) {
+#about_mob_banner{
+  display: none;
+}
 }
