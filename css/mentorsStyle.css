@@ -24,10 +24,10 @@ a.nav-link{
 }
 
 .active a.nav-link{
-  color:#EFCA48 !important;
+  color:#200660 !important;
 }
 .nav-link:hover{
-  color:#EFCA48 !important;
+  color:#200660 !important;
 }
 @media (min-width:768px) {
 
@@ -63,13 +63,13 @@ a.nav-link{
 .landingheading2{
   font-family: Arial_Rounded_MT_Bold;
   font-size: 56px;
-  line-height: 42px;
-  color:#EFCA48;
+  line-height: 60px;
+color: #200660;
 }
 
 .apply_button{
   font-family: Arial_Rounded_MT_Bold;
-  background: #E71D36;
+  background: #200660;
   border-radius: 18px;
   border:none;
   color: white;
@@ -128,7 +128,7 @@ line-height: 16px;
 }
 .landingheading2{
   font-size: 33px;
-  line-height: 42px;
+  text-align: center;
 }
 
 .lastdate{
