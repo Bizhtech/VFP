@@ -29,6 +29,13 @@ a.nav-link{
 #mobNavBarToggle{
   cursor: pointer;
 }
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.navbar-toggler {
+  border-color: rgb(255,255,255,0) !important;
+}
 #mob_banner{
   /* display:none; */
   /* display: none; */
@@ -112,9 +119,12 @@ a.Read_More:hover,a.Read_More:active{
   font-size: 2em;
   color: #000;
 }
-.MultiCarousel .leftLst { left:0; }
-.MultiCarousel .rightLst { right:0; }
-
+.MultiCarousel .leftLst { left:-15px; }
+.MultiCarousel .rightLst { right:-15px; }
+@media (max-width:768px) {
+  .MultiCarousel .leftLst { left:-5px; }
+  .MultiCarousel .rightLst { right:-5px; }
+}
 .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over {
   pointer-events: none;
   background:#ccc;
