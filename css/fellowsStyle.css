@@ -37,13 +37,13 @@ a.nav-link{
 }
 #mob_banner{
   /* display:none; */
-  display: none;
+  /* display: none; */
   /* height: 0; */
   transition: top 0.5s ease-in;
   width: 100%;
-  position: relative;
+  position: absolute;
   z-index: 10000;
-  top: -1000px;
+  top: -1200px;
 }
 .mobLinks:hover path,.mobLinks.active path{
   fill:#EFCA48 !important;
@@ -78,7 +78,7 @@ a.nav-link{
   text-decoration: none;
   display: inline-block;
   font-size: 24px;
-  margin: 2px 2px;
+  margin: 3rem 2px 2px 2px;
   cursor: pointer;
 }
 .lastdate{
@@ -115,43 +115,52 @@ line-height: 16px;
 }
 
 @media (max-width:768px) {
-#fellows_banner{
-  display: none;
-}
-.rocketsvg{
-  width: 50%;
-  text-align: center !important;
-}
-.landingheading1{
-  font-size: 20px;
-  line-height: 42px;
-}
-.landingheading2{
-  font-size: 33px;
-  line-height: 42px;
-}
+  #fellows_banner{
+    display: none;
+  }
+  .rocketsvg{
+    width: 50%;
+    text-align: center !important;
+  }
+  .landingheading1{
+    font-size: 20px;
+    line-height: 42px;
+  }
+  .landingheading2{
+    font-size: 33px;
+    line-height: 42px;
+  }
 
-.lastdate{
-  display: none;
-}
-.NameHeading{
+  .lastdate{
+    display: none;
+  }
+  .NameHeading{
 
-  font-size: 16px;
-  line-height: 21px;
-}
+    font-size: 16px;
+    line-height: 21px;
+  }
 
-.Uniheading{
-  font-size: 16px;
-  line-height: 21px;
-}
+  .Uniheading{
+    font-size: 16px;
+    line-height: 21px;
+  }
 
-#fellowstitle{
-  width: 50% !important;
-  padding-top: 70px;
-}
+  #fellowstitle{
+    width: 50% !important;
+    margin-top: 3rem !important;
+  }
 }
 @media (min-width:768px) {
 #fellows_mob_banner{
   display: none;
 }
+}
+@media (max-width:768px) {
+  #foundersHeading{
+    text-align: center;
+    font-size: 28px;
+  }
+  .apply_button{
+    margin-top: 1rem;
+  }
 }

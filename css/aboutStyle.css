@@ -29,7 +29,22 @@ a.nav-link{
 .nav-link:hover{
   color:#EFCA48 !important;
 }
-
+#mobNavBarToggle{
+  cursor: pointer;
+}
+#mob_banner{
+  /* display:none; */
+  /* display: none; */
+  /* height: 0; */
+  transition: top 0.5s ease-in;
+  width: 100%;
+  position: absolute;
+  z-index: 10000;
+  top: -1200px;
+}
+.mobLinks:hover path,.mobLinks.active path{
+  fill:#EFCA48 !important;
+}
 @media (max-width:768px) {
   /* #navlogo{
     display: none;
