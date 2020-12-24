@@ -5,7 +5,8 @@ var mobNavBarToggle=document.getElementById('mobNavBarToggle');
 window.addEventListener('resize', function(){
   console.log(window.innerWidth);
   if (window.innerWidth>=992){
-    mobNavBar.style.display="none";
+    // mobNavBar.style.display="none";
+    mobNavBar.style.top="-1200px";
 
   }else {
 
@@ -13,17 +14,15 @@ window.addEventListener('resize', function(){
 });
 navbarToggler.addEventListener("click",function(e){
   e.preventDefault();
-  mobNavBar.style.display="block";
-  setTimeout(function(){
+  // mobNavBar.style.display="block";
+  // setTimeout(function(){
     mobNavBar.style.top="0px";
-  },10);
+  // },10);
 });
 
 mobNavBarToggle.addEventListener("click",function(e){
   e.preventDefault();
-  mobNavBar.style.top="-1000px";
-  setTimeout(function(){
-    mobNavBar.style.display="none";
-  },10);
+  mobNavBar.style.top="-1200px";
+
 
 });

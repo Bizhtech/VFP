@@ -31,13 +31,13 @@ a.nav-link{
 }
 #mob_banner{
   /* display:none; */
-  display: none;
+  /* display: none; */
   /* height: 0; */
   transition: top 0.5s ease-in;
   width: 100%;
-  position: relative;
+  position: absolute;
   z-index: 10000;
-  top: -1000px;
+  top: -1200px;
 }
 .mobLinks:hover path,.mobLinks.active path{
   fill:#EFCA48 !important;
@@ -74,4 +74,111 @@ a.Read_More{
 }
 a.Read_More:hover,a.Read_More:active{
   text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+.MultiCarousel {
+  float: left;
+  overflow: hidden;
+  padding: 15px;
+  width: 100%;
+  position:relative;
+}
+.MultiCarousel .MultiCarousel-inner {
+  transition: 1s ease all;
+  float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item { float: left;}
+.MultiCarousel .MultiCarousel-inner .item > div {
+  text-align: center;
+  padding:10px;
+  margin:10px;
+  color:#666;
+}
+.MultiCarousel .leftLst, .MultiCarousel .rightLst {
+  position:absolute;
+  top:calc(50% - 20px);
+  background: transparent !important;
+}
+.MultiCarousel .leftLst i, .MultiCarousel .rightLst i{
+  font-size: 2em;
+  color: #000;
+}
+.MultiCarousel .leftLst { left:0; }
+.MultiCarousel .rightLst { right:0; }
+
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over {
+  pointer-events: none;
+  background:#ccc;
+  color: #fff;
+}
+.MultiCarousel .leftLst.over i, .MultiCarousel .rightLst.over i{
+  color: #B3B3B3;
+}
+
+.card-title{
+    /* Name */
+  margin: 0 auto;
+  width: 66px;
+  height: 28px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+  text-align: center;
+}
+.mentorTitle{
+  color: #200660;
+}
+.fellowsTitle{
+  color: #E71D36;
+}
+.card-desc{
+  margin: 0 auto;
+  /* Experience */
+  width: 94px;
+  height: 21px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
+}
+
+#becomeMentor,#becomeFellow{
+  cursor: pointer;
+}
+#becomeFellow{
+  position: relative;
+  top: 30px;
+}
+
+#fellowsCarousel .container{
+  background: #F7F3F3;
+  border-radius: 45px;
+}
+
+
+.responsive-svg{
+  width: 30%;
+}
+
+@media (max-width:768px) {
+  .responsive-svg{
+    width: 60%;
+  }
 }
