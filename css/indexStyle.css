@@ -12,6 +12,8 @@
 }
 a.nav-link{
   font-family: Arial_Rounded_MT_Bold;
+  /* font-family: 'Nunito', sans-serif; */
+
   color:white !important;
   /* color:#EFCA48; */
   font-size: 24px;
@@ -58,19 +60,25 @@ a.nav-link{
 
 
 .Building{
-  font-family: Arial_Rounded_MT_Bold;
+  /* font-family: Arial_Rounded_MT_Bold; */
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
   font-size: 36px;
+  line-height: 49px;
   color:black;
 }
 .Pakistan{
   color:#1A933C;
 }
 .Read_More{
-  font-family: Arial_Rounded_MT_Bold;
+  /* font-family: Arial_Rounded_MT_Bold; */
+  font-family: 'Nunito', sans-serif;
+
   font-size: 18px;
   color:#200660;
 }
 .follow-vfp{
+
   font-family: Arial_Rounded_MT_Bold;
   color:#200660;
   font-size: 36px;
@@ -177,8 +185,10 @@ a.Read_More:hover,a.Read_More:active{
   top: 30px;
 }
 
-#fellowsCarousel .container{
+#fellowsCarousel{
   background: #F7F3F3;
+  margin-left: 80px;
+  margin-right: 80px;
   border-radius: 45px;
 }
 
