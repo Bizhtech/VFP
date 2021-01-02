@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+/*
 @font-face {
   font-family: Arial_Rounded_MT_Bold;
   src: url(Fonts/ARIAL_ROUNDED_BOLD.TTF);
@@ -12,9 +13,10 @@
   font-family: Arial_Rounded_MT;
   src: url(Fonts/ARIAL_ROUNDED_MT.TTF);
 }
+*/
 
 a.nav-link{
-  font-family: Arial_Rounded_MT_Bold;
+  font-family: 'Nunito', sans-serif;
   color:white !important;
   /* color:#EFCA48; */
   /* font-size: 18px; */
@@ -62,12 +64,12 @@ a.nav-link{
   padding-top: 100px;
 }
 .AboutHeading{
-  font-family: Arial_Rounded_MT_Bold;
+  font-family: 'Nunito', sans-serif;
   font-size: 48px;
   color:#200660;
 }
 .AboutContent{
-  font-family: Arial_Rounded_MT;
+  font-family: 'Nunito', sans-serif;
   font-size: 18px;
   color:#000000;
 }
@@ -77,23 +79,23 @@ a.nav-link{
   border-radius: 45px;
 }
 .howvfp_heading{
-  font-family: Arial_Rounded_MT_Bold;
+  font-family: 'Nunito', sans-serif;
   font-size: 48px;
   color: #200660;
 }
 .howvfp_content1{
-  font-family: Arial_Rounded_MT;
+  font-family: 'Nunito', sans-serif;;
   font-size: 18px;
   text-align: center;
   padding: 0px 100px 0px 100px;
 }
 .block1{
-  font-family: Arial_Rounded_MT_Bold;
+  font-family: 'Nunito', sans-serif;
   font-size: 24px;
   color:#200660;
 }
 .block2{
-  font-family: Arial_Rounded_MT;
+  font-family: 'Nunito', sans-serif;;
   font-size: 12px;
   text-align: center;
   line-height: 14px;
@@ -101,21 +103,21 @@ a.nav-link{
 }
 
 .what1{
-  font-family: Arial_Rounded_MT_Bold;
+  font-family: 'Nunito', sans-serif;
   font-size: 24px;
   color:#E71D36;
   text-align: center;
   line-height: 27.77px;
 }
 .what2{
-  font-family: Arial_Rounded_MT;
+  font-family: 'Nunito', sans-serif;;
   font-size: 12px;
   text-align: center;
   line-height: 22px;
   padding: 0px 70px 0px 70px;
 }
 .become_button {
-  font-family: Arial_Rounded_MT_Bold;
+  font-family: 'Nunito', sans-serif;
   background: #E71D36;
   border-radius: 18px;
   border:none;
@@ -129,13 +131,13 @@ a.nav-link{
   cursor: pointer;
 }
 .dateapply{
-  font-family: Arial_Rounded_MT_Bold;
+  font-family: 'Nunito', sans-serif;
   font-size: 14px;
   line-height: 16px;
 }
 
 .follow-vfp{
-  font-family: Arial_Rounded_MT_Bold;
+  font-family: 'Nunito', sans-serif;
   color:#200660;
   font-size: 36px;
 }
@@ -179,7 +181,7 @@ padding-top: 20px;
   font-size: 20px;
 }
 .block2{
-  font-family: Arial_Rounded_MT;
+  font-family: 'Nunito', sans-serif;;
   font-size: 16px;
   line-height: 28px;
   padding: 2px 0px 30px 0px;
