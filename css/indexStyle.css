@@ -182,7 +182,7 @@ a.Read_More:hover,a.Read_More:active{
 }
 #becomeFellow{
   position: relative;
-  top: 30px;
+  top: -30px;
 }
 
 #fellowsCarousel{
@@ -200,5 +200,8 @@ a.Read_More:hover,a.Read_More:active{
 @media (max-width:768px) {
   .responsive-svg{
     width: 60%;
+  }
+  #fellowsCarousel .MultiCarousel-inner .item{
+    /* min-width: 170px !important; */
   }
 }
