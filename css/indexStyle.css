@@ -201,7 +201,8 @@ a.Read_More:hover,a.Read_More:active{
   .responsive-svg{
     width: 60%;
   }
-  #fellowsCarousel .MultiCarousel-inner .item{
-    /* min-width: 170px !important; */
+  #fellowsCarousel {
+    margin-right: 0;
+    margin-left: 0;
   }
 }
