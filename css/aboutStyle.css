@@ -3,12 +3,12 @@
   padding: 0;
 }
 
-/*
 @font-face {
   font-family: Arial_Rounded_MT_Bold;
   src: url(Fonts/ARIAL_ROUNDED_BOLD.TTF);
 }
 
+/*
 @font-face {
   font-family: Arial_Rounded_MT;
   src: url(Fonts/ARIAL_ROUNDED_MT.TTF);
@@ -16,7 +16,7 @@
 */
 
 a.nav-link{
-  font-family: 'Nunito', sans-serif;
+  font-family: Arial_Rounded_MT_Bold;
   color:white !important;
   /* color:#EFCA48; */
   /* font-size: 18px; */
@@ -74,9 +74,18 @@ a.nav-link{
   color:#000000;
 }
 
+.sechowvfp {
+    padding: 30px;
+}
+
 .howvfp{
   background: #F7F3F3;
   border-radius: 45px;
+/*  padding-top: 40px;*/
+}
+
+.howvfptitle {
+    padding-top: 30px;
 }
 .howvfp_heading{
   font-family: 'Nunito', sans-serif;
@@ -102,6 +111,9 @@ a.nav-link{
   padding: 0px 50px 0px 50px;
 }
 
+#whattoexpect {
+    padding-top: 90px;
+}
 .what1{
   font-family: 'Nunito', sans-serif;
   font-size: 24px;
@@ -116,8 +128,12 @@ a.nav-link{
   line-height: 22px;
   padding: 0px 70px 0px 70px;
 }
+
+.full_button{
+    padding-top: 20px;
+}
 .become_button {
-  font-family: 'Nunito', sans-serif;
+  font-family: Arial_Rounded_MT_Bold;
   background: #E71D36;
   border-radius: 18px;
   border:none;
@@ -136,10 +152,25 @@ a.nav-link{
   line-height: 16px;
 }
 
+#followvfp {
+    padding-bottom: 45px;
+}
+
 .follow-vfp{
-  font-family: 'Nunito', sans-serif;
+  font-family: Arial_Rounded_MT_Bold;
   color:#200660;
   font-size: 36px;
+}
+
+.footer-full {
+    display: none;
+}
+
+.fyellow, .fred, .fblue, .fgreen {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+/*    width: 200%;*/
 }
 
 @media (max-width:768px) {
@@ -148,6 +179,7 @@ a.nav-link{
 }
 .aboutbody{
   padding-top: 10px;
+/*    padding-bottom: 200px;*/
 }
 .aboutstair img{
   width:65% !important;
@@ -162,6 +194,7 @@ padding-top: 20px;
   font-size: 17px;
   line-height: 28px;
 }
+     
 .howvfp{
   background: #ffffff;
   border-radius: 0px;
@@ -209,6 +242,16 @@ padding-top: 20px;
   padding: 2px 60px 30px 60px;
 }
 
+}
+
+@media (min-width: 992px){
+    .fyellow, .fred, .fblue, .fgreen {
+        display: none;
+    }
+    .footer-full {
+    width:100%; 
+    height: 5%;
+}
 }
 
 @media (min-width:768px) {
