@@ -7,16 +7,19 @@
   font-family: Arial_Rounded_MT_Bold;
   src: url(Fonts/ARIAL_ROUNDED_BOLD.TTF);
 }
+
+@font-face {
+  font-family: Nunito_Regular;
+  src: url(Fonts/Nunito/Nunito-Regular.ttf);
+}
+
 .navbar{
   position: absolute;
 }
 a.nav-link{
   font-family: Arial_Rounded_MT_Bold;
-  /* font-family: 'Nunito', sans-serif; */
-
   color:white !important;
-  /* color:#EFCA48; */
-  font-size: 24px;
+  font-size: 1.7vw;
 }
 
 .active a.nav-link{
@@ -25,9 +28,7 @@ a.nav-link{
 .nav-link:hover{
   color:#EFCA48 !important;
 }
-@media (min-width:768px) {
 
-}
 #mobNavBarToggle{
   cursor: pointer;
 }
@@ -51,11 +52,19 @@ a.nav-link{
 .mobLinks:hover path,.mobLinks.active path{
   fill:#EFCA48 !important;
 }
-@media (max-width:768px) {
+@media (max-width:992px) {
 
   #navlogo{
     display: none;
   }
+  #laptop_banner{
+    display: none;
+  }
+}
+@media (min-width:992px) {
+#rocket_phone_banner{
+  display: none;
+}
 }
 
 
@@ -67,13 +76,28 @@ a.nav-link{
   line-height: 49px;
   color:black;
 }
+@media (max-width:768px) {
+  #blacklogo{
+    height: 60px !important;
+  }
+  .Building{
+    font-size: 28px;
+    text-align: center;
+    line-height: 38px;
+  }
+  .Read_More{
+    font-size: 17px !important;
+    padding-top: 15px;
+    color:#200660;
+  }
+}
 .Pakistan{
   color:#1A933C;
 }
 .Read_More{
   /* font-family: Arial_Rounded_MT_Bold; */
-  font-family: 'Nunito', sans-serif;
-
+  font-family: Nunito_Regular;
+  font-weight: bold;
   font-size: 18px;
   color:#200660;
 }
