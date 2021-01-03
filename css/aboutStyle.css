@@ -194,7 +194,7 @@ padding-top: 20px;
   font-size: 17px;
   line-height: 28px;
 }
-     
+
 .howvfp{
   background: #ffffff;
   border-radius: 0px;
@@ -249,7 +249,7 @@ padding-top: 20px;
         display: none;
     }
     .footer-full {
-    width:100%; 
+    width:100%;
     height: 5%;
 }
 }
@@ -257,5 +257,16 @@ padding-top: 20px;
 @media (min-width:768px) {
 #about_mob_banner{
   display: none;
+}
+}
+@media (max-width:992px) {
+  #lapfooter{
+    display: none;
+  }
+}
+@media (min-width:992px) {
+#mobfooter{
+  display: none;
+
 }
 }
