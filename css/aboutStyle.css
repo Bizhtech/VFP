@@ -233,10 +233,10 @@ padding-top: 20px;
 .howvfp5 img{
   width:20% !important;
 }
-    
+
 #whattoexpect {
     padding-top: 0px;
-}    
+}
 .what1{
   font-size: 20px;
 }
@@ -266,6 +266,12 @@ padding-top: 20px;
 @media (max-width:992px) {
   #lapfooter{
     display: none;
+  }
+  .follow-vfp{
+    font-size: 26px;
+  }
+  .footIcon{
+    width: 50%;
   }
 }
 @media (min-width:992px) {
