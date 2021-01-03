@@ -209,14 +209,16 @@ a.Read_More:hover,a.Read_More:active{
   top: -30px;
 }
 
-#fellowsCarousel{
+#fellowsCarousel, #brandCarousel{
   background: #F7F3F3;
   margin-left: 80px;
   margin-right: 80px;
   border-radius: 45px;
 }
 
-
+.fellowsTitle,.mentorTitle,.card-desc{
+  width: inherit;
+}
 .responsive-svg{
   width: 30%;
 }
@@ -225,8 +227,29 @@ a.Read_More:hover,a.Read_More:active{
   .responsive-svg{
     width: 60%;
   }
-  #fellowsCarousel {
+  #partnerSVG,#mentorsSVG,#fellowsSVG{
+    width: 50%;
+  }
+  #becomeMentor,#becomeMember,#becomeFellow{
+    width: 60%;
+  }
+  .item .pad15 h1{
+    font-size: 20px;
+  }
+  .card-desc{
+    font-size: 16px;
+  }
+  #fellowsCarousel,#brandCarousel {
     margin-right: 0;
     margin-left: 0;
+  }
+  .follow-vfp{
+    font-size: 26px;
+  }
+  .fellowsMultiCarousel{
+    padding: 15px 15px 30px 15px !important;
+  }
+  .footIcon{
+    width: 60%;
   }
 }
