@@ -78,10 +78,14 @@ a.nav-link{
 .Building{
   /* font-family: Arial_Rounded_MT_Bold; */
   font-family: 'Nunito', sans-serif;
-  font-weight: 900;
+  font-weight: 0px;
   font-size: 36px;
   line-height: 49px;
-  color:black;
+  color: #200660;
+}
+.Pakistan{
+  color: #200660;
+  
 }
 @media (max-width:768px) {
   #blacklogo{
@@ -98,9 +102,7 @@ a.nav-link{
     color:#200660;
   }
 }
-.Pakistan{
-  color:#1A933C;
-}
+
 .Read_More{
   /* font-family: Arial_Rounded_MT_Bold; */
   font-family: Nunito_Regular;
@@ -210,13 +212,17 @@ a.Read_More:hover,a.Read_More:active{
 
 #becomeMentor,#becomeFellow{
   cursor: pointer;
-}
-#becomeFellow{
   position: relative;
   top: -30px;
+} 
+#brandCarousel{
+  background: white;
+  margin-left: 80px;
+  margin-right: 80px;
+  border-radius: 45px;
 }
 
-#fellowsCarousel, #brandCarousel{
+#fellowsCarousel, #mentorsCarousel{
   background: #F7F3F3;
   margin-left: 80px;
   margin-right: 80px;

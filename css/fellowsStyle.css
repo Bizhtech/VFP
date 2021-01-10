@@ -121,6 +121,16 @@ line-height: 16px;
   font-size: 36px;
 }
 
+.fellowstxt{
+  font-family: Arial_Rounded_MT;
+  font-size:  30px;
+}
+.fellowstxt2{
+  font-family: Arial_Rounded_MT_Bold;
+  font-size:  45px;
+  font-weight: 900px;
+  color: #E71D36;
+}
 @media (max-width:768px) {
   #fellows_banner{
     display: none;

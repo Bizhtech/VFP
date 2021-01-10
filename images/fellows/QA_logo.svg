@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="590.72px" height="192.629px" viewBox="0 0 590.72 192.629" enable-background="new 0 0 590.72 192.629" xml:space="preserve">
+<polygon fill="#454545" points="0.187,0 0.187,51.46 0.187,189.45 23.82,186.139 48.603,181.91 48.603,116.771 111.81,116.771   111.81,73.399 48.603,73.399 48.603,51.655 48.603,51.46 111.81,51.46 112.151,0 "/>
+<polygon fill="#454545" points="118.24,0 118.24,170.028 166.655,161.766 166.655,0 "/>
+<polygon fill="#454545" points="285.747,0 285.747,69.363 222.941,0 174.462,0 174.462,160.435 222.877,152.173 222.877,68.629   294.57,139.94 337.188,132.668 337.188,0 "/>
+<polygon fill="#EF4423" points="430.207,0 430.207,190.667 478.621,190.667 478.621,159.804 554.578,159.804 511.326,116.771   478.621,116.771 478.739,69.921 590.721,182.542 590.574,125.182 471.898,0 "/>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="590.72" height="192.629"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_" overflow="visible"/>
+	</clipPath>
+	<path clip-path="url(#SVGID_2_)" fill="#F15D22" d="M0.188,192.53c-0.407,0.037-0.029,0.07,0,0.099V192.53z"/>
+	<path clip-path="url(#SVGID_2_)" fill="#EF4423" d="M347.651,45.843h27.592v82.36l-0.832,0.142L7.836,190.895   c76.003-2.411,394.575,0.082,414.816-0.329V1h-75.001V45.843z"/>
+</g>
+</svg>
