@@ -131,12 +131,23 @@ line-height: 16px;
   font-weight: 900px;
   color: #E71D36;
 }
+
+.fellowstxtmob{
+  font-family: Arial_Rounded_MT;
+  font-size:  20px;
+}
+.fellowstxtmob2{
+  font-family: Arial_Rounded_MT_Bold;
+  font-size:  30px;
+  font-weight: 900px;
+  color: #efcb48;
+}
+
+
 @media (max-width:768px) {
   #fellows_banner{
     display: none;
   }
- 
-  
   .rocketsvg{
     width: 50%;
     text-align: center !important;
