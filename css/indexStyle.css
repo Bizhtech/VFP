@@ -279,3 +279,24 @@ a.Read_More:hover,a.Read_More:active{
     width: 60%;
   }
 }
+.contactPopUp svg{
+  /* Group 10 */
+
+position: absolute;
+width: 58.62px;
+height: 58.62px;
+right: 20px;
+top: 720px;
+cursor: pointer;
+}
+#exampleModal{
+  /* position: inherit; */
+  position: fixed;
+  z-index: 2000;
+}
+.modal-header,.modal-title{justify-content: center;}
+.modal-content{
+  background: #F6F3F3;
+  border-radius: 32px;
+}
+#modalCloser,#sendMessage{cursor: pointer;}
