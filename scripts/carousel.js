@@ -38,15 +38,11 @@ $(document).ready(function () {
             $(this).parent().attr("id", "MultiCarousel" + id);
 
 
-            // if (bodyWidth >= 1200) {
-            //     incno = itemsSplit[3];
-            //     itemWidth = sampwidth / incno;
-            // }
-            // else if (bodyWidth >= 992) {
-            //     incno = itemsSplit[2];
-            //     itemWidth = sampwidth / incno;
-            // }
-            if (bodyWidth >= 992) {
+            if (bodyWidth >= 1200) {
+                incno = itemsSplit[3];
+                itemWidth = sampwidth / incno;
+            }
+            else if (bodyWidth >= 992) {
                 incno = itemsSplit[2];
                 itemWidth = sampwidth / incno;
             }
@@ -55,7 +51,7 @@ $(document).ready(function () {
                 itemWidth = sampwidth / incno;
             }
             else {
-                incno = itemsSplit[1];
+                incno = itemsSplit[0];
                 itemWidth = sampwidth / incno;
             }
             $(this).css({ 'transform': 'translateX(0px)', 'width': itemWidth * itemNumbers });
