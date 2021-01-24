@@ -206,3 +206,5 @@ line-height: 16px;
   border-radius: 32px;
 }
 #modalCloser,#sendMessage{cursor: pointer;}
+form.hide-submit input[type="submit"] { display: none;}
+input[type="submit"]:not(:disabled){display: none;}
