@@ -280,3 +280,17 @@ padding-top: 20px;
 
 }
 }
+
+#exampleModal{
+  /* position: inherit; */
+  position: fixed;
+  z-index: 2000;
+}
+.modal-header,.modal-title{justify-content: center;}
+.modal-content{
+  background: #F6F3F3;
+  border-radius: 32px;
+}
+#modalCloser,#sendMessage{cursor: pointer;}
+form.hide-submit input[type="submit"] { display: none;}
+input[type="submit"]:not(:disabled){display: none;}

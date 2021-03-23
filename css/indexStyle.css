@@ -76,12 +76,21 @@ a.nav-link{
 
 
 .Building{
-  /* font-family: Arial_Rounded_MT_Bold; */
-  font-family: 'Nunito', sans-serif;
-  font-weight: 900;
+  font-family: Arial_Rounded_MT_Bold;
+  /* font-family: 'Nunito', sans-serif; */
   font-size: 36px;
   line-height: 49px;
-  color:black;
+  color: #200660;
+  font-weight: lighter;
+}
+
+
+.Pakistan{
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 49px;
+  color: #200660;
+
 }
 @media (max-width:768px) {
   #blacklogo{
@@ -98,9 +107,7 @@ a.nav-link{
     color:#200660;
   }
 }
-.Pakistan{
-  color:#1A933C;
-}
+
 .Read_More{
   /* font-family: Arial_Rounded_MT_Bold; */
   font-family: Nunito_Regular;
@@ -210,13 +217,17 @@ a.Read_More:hover,a.Read_More:active{
 
 #becomeMentor,#becomeFellow{
   cursor: pointer;
-}
-#becomeFellow{
   position: relative;
   top: -30px;
 }
+#brandCarousel{
+  background: white;
+  margin-left: 80px;
+  margin-right: 80px;
+  border-radius: 45px;
+}
 
-#fellowsCarousel, #brandCarousel{
+#fellowsCarousel, #mentorsCarousel{
   background: #F7F3F3;
   margin-left: 80px;
   margin-right: 80px;
@@ -225,6 +236,11 @@ a.Read_More:hover,a.Read_More:active{
 
 .fellowsTitle,.mentorTitle,.card-desc{
   width: inherit;
+}
+@media (min-width:992px) {
+  .fellowsTitle,.mentorTitle{
+    margin-bottom: 25px;
+  }
 }
 .responsive-svg{
   width: 30%;
@@ -246,9 +262,12 @@ a.Read_More:hover,a.Read_More:active{
   .card-desc{
     font-size: 16px;
   }
-  #fellowsCarousel,#brandCarousel {
+  #fellowsCarousel,#brandCarousel,#mentorsCarousel {
     margin-right: 0;
     margin-left: 0;
+  }
+  #mentorsCarousel{
+    margin-top: 0 !important;
   }
   .follow-vfp{
     font-size: 26px;
@@ -260,3 +279,26 @@ a.Read_More:hover,a.Read_More:active{
     width: 60%;
   }
 }
+.contactPopUp svg{
+  /* Group 10 */
+
+position: absolute;
+width: 58.62px;
+height: 58.62px;
+right: 20px;
+top: 720px;
+cursor: pointer;
+}
+#exampleModal{
+  /* position: inherit; */
+  position: fixed;
+  z-index: 2000;
+}
+.modal-header,.modal-title{justify-content: center;}
+.modal-content{
+  background: #F6F3F3;
+  border-radius: 32px;
+}
+#modalCloser,#sendMessage{cursor: pointer;}
+form.hide-submit input[type="submit"] { display: none;}
+input[type="submit"]:not(:disabled){display: none;}

@@ -121,6 +121,29 @@ line-height: 16px;
   font-size: 36px;
 }
 
+.fellowstxt{
+  font-family: Arial_Rounded_MT;
+  font-size:  30px;
+}
+.fellowstxt2{
+  font-family: Arial_Rounded_MT_Bold;
+  font-size:  45px;
+  font-weight: 900px;
+  color: #E71D36;
+}
+
+.fellowstxtmob{
+  font-family: Arial_Rounded_MT;
+  font-size:  20px;
+}
+.fellowstxtmob2{
+  font-family: Arial_Rounded_MT_Bold;
+  font-size:  30px;
+  font-weight: 900px;
+  color: #efcb48;
+}
+
+
 @media (max-width:768px) {
   #fellows_banner{
     display: none;
@@ -172,3 +195,17 @@ line-height: 16px;
     margin-top: 1rem;
   }
 }
+
+#exampleModal{
+  /* position: inherit; */
+  position: fixed;
+  z-index: 2000;
+}
+.modal-header,.modal-title{justify-content: center;}
+.modal-content{
+  background: #F6F3F3;
+  border-radius: 32px;
+}
+#modalCloser,#sendMessage{cursor: pointer;}
+form.hide-submit input[type="submit"] { display: none;}
+input[type="submit"]:not(:disabled){display: none;}

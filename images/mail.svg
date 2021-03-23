@@ -1,0 +1,29 @@
+<svg width="67" height="67" viewBox="0 0 67 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_di)">
+<circle cx="33.3078" cy="29.3078" r="29.3078" fill="#E71D36"/>
+</g>
+<g clip-path="url(#clip0)">
+<path d="M21.9847 18.8433L44.631 18.8433C45.9609 18.8433 47.0459 19.9271 47.0459 21.2582L47.0459 37.3575C47.0459 38.6841 45.9657 39.7724 44.631 39.7724L21.9847 39.7724C20.6581 39.7724 19.5698 38.6922 19.5698 37.3575L19.5698 21.2582C19.5698 19.9316 20.65 18.8433 21.9847 18.8433ZM22.3182 20.4532L33.2567 31.3918L44.2898 20.4533L22.3182 20.4532ZM45.436 37.0241L45.436 21.5839L37.6826 29.2708L45.436 37.0241ZM44.2976 38.1625L36.5393 30.4042L33.8209 33.0993C33.5062 33.4113 32.9984 33.4103 32.685 33.0969L30.0343 30.4462L22.3181 38.1625L44.2976 38.1625ZM21.1797 37.0241L28.8959 29.3079L21.1797 21.5916L21.1797 37.0241Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_di" x="0" y="0" width="66.6157" height="66.6157" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="2" operator="dilate" in="SourceAlpha" result="effect2_innerShadow"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="4"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="shape" result="effect2_innerShadow"/>
+</filter>
+<clipPath id="clip0">
+<rect width="27.4761" height="27.4761" fill="white" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 47.0459 15.5698)"/>
+</clipPath>
+</defs>
+</svg>
